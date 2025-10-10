@@ -37,9 +37,9 @@ module.exports = class Archie extends BaseTask {
               const textRun = x.textRun;
               if (!textRun) return '';
               const textContent = x.textRun.content;
-              const textStyle = x.textRun.textStyle;
-              // TODO: determine here if we want any styles to map to html coding automatically
-              if (textStyle?.bold) return `<strong>${textContent}</strong>`;
+              // const textStyle = x.textRun.textStyle;
+              // // TODO: determine here if we want any styles to map to html coding automatically
+              // if (textStyle?.bold) return `<strong>${textContent}</strong>`;
               return textContent;
             }).filter(x => x).join("");
             return `${paragraph?.bullet ? '* ' : ''}${text}`;
