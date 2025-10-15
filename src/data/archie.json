@@ -15,7 +15,7 @@
     "archie": {
       "methodology": "<b>About the simulator:</b> We estimate odds by randomly simulating the remainder of the season thousands of times and counting how often each team makes the playoffs, gets the No. 1 seed, the No. 1 draft pick and so on. We estimate each team’s probability of winning each remaining game using a statistical forecast that incorporates a host of data, including team records, roster changes, weather, game location and more advanced measures like expected points added and success rate.",
       "credits": "By Ryan Best, David Haye, Elliot Jordan, Junghye Kim, Austin Mock, Matt Myers, Thomas Oide, Laura Pelton, Yuriko Schumacher and Oliver Viehweger",
-      "note": "Adapted from The New York Times’s NFL playoff simulator.",
+      "note": "Adapted from The New York Times’s NFL Playoff Simulator.",
       "team_recirc_logos_hed": "All teams",
       "team_recirc_stories_hed": "More {{ team_name }} stories",
       "index_recirc_stories_hed": "More NFL playoff stories",
@@ -31,7 +31,7 @@
       "sim_header": "{{ team_name }} 2025 NFL playoff chances:",
       "sim_header_sub": "Explore any outcome",
       "team_image_alt": "{{ team_name }} logo",
-      "sim_p1": "<b>With {{ N }} games remaining, the {{ team_name }} have a {{ percent_chance }} chance to make the playoffs. </b>This interactive tool is designed to help you explore which games matter most for the {{ team_name_short }}’ playoff chances. As you pick winners of games, the colors on some games will change, reflecting their relative importance. Use the dropdown below to explore other outcomes.",
+      "sim_p1": "<b>With {{ N }} games remaining, the {{ team_name }} have a {{ percent_chance }} chance to {{ scenario }}. </b>This interactive tool is designed to help you explore which games matter most for the rest of the {{ team_name_short }}’ season. As you pick winners of games, the colors on some games will change, reflecting their relative importance. Use the dropdown below to explore other outcomes.",
       "sim_p2": "<b>The tables below represent all NFL games remaining.</b> While the {{ team_name }}’ games are typically the most important, outcomes from other games can affect the {{ team_name }}’ chances indirectly. Pick winners and explore which games matter most.",
       "details_header": "{{ team_name }} 2025 NFL playoff chances:",
       "details_header_sub": "Detailed projections",
