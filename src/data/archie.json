@@ -26,7 +26,7 @@
       "details_header": "{{ team_name }} 2025 NFL playoff chances:",
       "details_header_sub": "Detailed projections",
       "sankey_hed": "End-of-season outcomes",
-      "draft_pick_hed": "{{ team_name }}’ likelihood of each 2026 draft pick position",
+      "draft_pick_hed": "{{ team_name }}’ chances of earning each 2026 draft pick",
       "possibilities_hed": "Best and worst outcomes",
       "details_p1": "Below are our estimates for the {{ team_name }}’ chances at all playoff outcomes since the beginning of the season. These figures are updated after every NFL game and occasionally when there is a player injury or other roster news.",
       "area_hed": "How the {{ team_name }}’ chances have changed",
@@ -34,23 +34,23 @@
       "histogram_hed": "{{ team_name }}’ likeliest end-of-season records",
       "austin_updates": [
         {
-          "team": "",
+          "team": "Chiefs",
           "text": "After losing to the Bills on Sunday, the Chiefs' playoff odds drop to 73%."
         },
         {
-          "team": "",
+          "team": "Colts",
           "text": "Since the start of the season, the Colts playoff odds increased by 55%."
         },
         {
-          "team": "",
+          "team": "Panthers",
           "text": "After upsetting the Packers in Green Bay, the Panthers' playoff odds rose from 8% to 19%."
         },
         {
-          "team": "",
+          "team": "Texans",
           "text": "The 3-5 Texans playoff odds sit at 9% despite entering the season as the AFC South favorites."
         },
         {
-          "team": "",
+          "team": "Commanders",
           "text": "Jayden Daniels left Sunday night's game with his third separate injury this season as the 3-6 Commanders have just a 1% chance to make the playoffs."
         }
       ]
