@@ -13,8 +13,8 @@
       "header_image_alt": "NFL logo",
       "index_header": "2025 NFL Playoff Simulator:",
       "index_header_sub": "Each team’s path to the postseason",
-      "index_intro_p1": "Welcome to The Athletic’s 2025 NFL Playoff Simulator, where you’ll find everything you need to know about all the ways your favorite team’s season could end, from a No. 1 playoff seed to the No. 1 pick in the 2026 NFL Draft.",
-      "index_intro_p2": "The tables above represent a view of the standings if the season ended today, along with our best guess for the final playoff picture (with teams ordered by projected win totals, and ties accounting for half of a win). Below, you’ll find much more detailed estimates for all 32 NFL teams. All these estimates are powered by <a href=\"https://www.nytimes.com/athletic/author/austin-mock/\">Austin Mock’s</a> NFL Projection Model. You can read more about this tool and how it works <a href=\"https://www.nytimes.com/athletic/6736840/2025/10/22/nfl-playoff-simulator-how-to-explainer-projections-odds/\">right here</a>, and send in your questions to <a href=\"mailto: askaustin@theathletic.com\">AskAustin@theathletic.com</a>.",
+      "index_intro_p1": "Welcome to The Athletic’s 2025 NFL Playoff Picture Simulator, where you’ll find everything you need to know about the NFL standings. From the No. 1 seed in each conference to the No. 1 pick in the 2026 NFL draft, you can explore all the ways your favorite team’s season could end.",
+      "index_intro_p2": "The tables above represent a view of the standings if the season ended today, along with our best guess for the final playoff picture (with teams ordered by projected win totals, and ties accounting for half of a win). Below, you’ll find much more detailed estimates for all 32 NFL teams. All these estimates are powered by <a href=\"https://www.nytimes.com/athletic/author/austin-mock/\">Austin Mock’s</a> NFL Projection Model and helped us create a <a href = \u000b“https://www.nytimes.com/athletic/interactive/nfl-playoff-picture-week-17-scenarios/”>visual guide of every possible scenario for Week 17.</a> You can read more about this tool and how it works <a href=\"https://www.nytimes.com/athletic/6736840/2025/10/22/nfl-playoff-simulator-how-to-explainer-projections-odds/\">right here</a>, and send in your questions to <a href=\"mailto: askaustin@theathletic.com\">AskAustin@theathletic.com</a>.",
       "draft_header": "2026 NFL Draft:",
       "draft_header_sub": "Each team’s projected order",
       "draft_intro": "If you’re looking ahead to next season, this is the place to do it. Here are our estimates for the order of the 2026 NFL Draft, updated with each game result.",
@@ -27,15 +27,18 @@
       "details_header_sub": "Detailed projections",
       "sankey_hed": "End-of-season outcomes",
       "draft_pick_hed": "{{ team_name }}’ chances of earning each 2026 draft pick",
-      "potential_opponents_hed": "Most likely teams {{ team_name }} might play",
-      "possibilities_hed": "What might happen",
-      "possibilities_dek": "Events with at least a 1% chance in our forecast",
+      "clinched_playoff_1_seed_p": "The {{ team_name }} have clinched the No. 1 playoff seed.",
+      "clinched_playoff_2_7_seeds_p_uncertain": "The {{ team_name }} have clinched the No. {{ N }} playoff seed. They will play the No. {{ M }} seed in the Wild Card round.",
+      "clinched_playoff_2_7_seeds_p_certain": "The {{ team_name }} have clinched the No. {{ N }} playoff seed. They will play {{ opponent_team_name }} (No. {{ M }} seed) in the Wild Card round.",
+      "potential_opponents_hed": "Most likely No. {{ M }} seeds:",
+      "outcome_hed": "What might happen",
+      "outcome_dek": "Events with at least a 1% chance in our forecast",
       "details_p1": "Below are our estimates for the {{ team_name }}’ chances at all playoff outcomes since the beginning of the season. These figures are updated after every NFL game and occasionally when there is a player injury or other roster news.",
       "area_hed": "How the {{ team_name }}’ chances have changed",
       "details_p2": "Here you’ll find our estimates for all remaining combinations of records the {{ team_name }} may end the season with.",
       "histogram_hed": "{{ team_name }}’ likeliest end-of-season records",
-      "austin_updates_hed": "Updates from Austin Mock",
-      "austin_updates_p": "After losing to the Bills on Sunday, the Chiefs' playoff odds dropped to 73%. Since the start of the season, the Colts playoff odds increased by 55%. After upsetting the Packers in Green Bay, the Panthers' playoff odds rose from 8% to 19%. The 3-5 Texans playoff odds sit at 9% despite entering the season as the AFC South favorites."
+      "austin_updates_hed": "Updates from <a href=\"https://www.nytimes.com/athletic/author/austin-mock/\">Austin Mock</a>",
+      "austin_updates_p": "After losing to the Bills on Sunday, the Chiefs' playoff odds dropped to 73%. Since the start of the season, the Colts playoff odds increased by 55%. After upsetting the Packers in Green Bay, the Panthers' playoff odds rose from 8% 9%. The 3-5 Texans playoff odds sit at 9% despite entering the season as the AFC South favorites."
     }
   },
   {
@@ -46,6 +49,11 @@
   {
     "title": "Copy edits",
     "id": "t.0",
+    "archie": {}
+  },
+  {
+    "title": "How to update the text",
+    "id": "t.3a45ks7nylg6",
     "archie": {}
   }
 ]
